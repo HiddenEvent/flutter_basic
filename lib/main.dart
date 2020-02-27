@@ -6,13 +6,13 @@ class MyApp extends StatelessWidget { // 상태 변경이 없는 위젯. 한번 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {  // UI를 만드는 부분.
+    String update;
     return MaterialApp( // 구글 기본 디자인인 Material Design을 써서 앱을 만든다.
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: HelloPage("hello World")
-
     );
   }
 }
